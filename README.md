@@ -1,6 +1,13 @@
 # CV Projects
 
-Here below are the links for code files :
+#Framework:
+Pytorch 
+
+#Datasets:
+1.CIFAR10
+2.COCO
+
+#Project Links: 
 
 1.[Pytorch_ConvNets_CIFAR10](https://github.com/yaofengdong/CV_Projects/blob/master/ConvNet_PyTorch.py)
 
