@@ -5,12 +5,12 @@ import time, os, json
 import numpy as np
 import matplotlib.pyplot as plt
 
-from cs231n.gradient_check import eval_numerical_gradient, eval_numerical_gradient_array
-from cs231n.rnn_layers import *
-from cs231n.captioning_solver import CaptioningSolver
-from cs231n.classifiers.rnn import CaptioningRNN
-from cs231n.coco_utils import load_coco_data, sample_coco_minibatch, decode_captions
-from cs231n.image_utils import image_from_url
+from gradient_check import eval_numerical_gradient, eval_numerical_gradient_array
+from rnn_layers import *
+from captioning_solver import CaptioningSolver
+from classifiers.rnn import CaptioningRNN
+from coco_utils import load_coco_data, sample_coco_minibatch, decode_captions
+from image_utils import image_from_url
 
 %matplotlib inline
 plt.rcParams['figure.figsize'] = (10.0, 8.0) # set default size of plots
